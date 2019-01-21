@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+
+
+body {
+	background-color: rgb(10,10,10);
+}
+
+
+div#board {
+	position: relative;
+	width: 870px;
+	height: 763px;
+	margin:  auto;        /*убрать 0 если что то не так*/
+	/*background: url("../img/board.jpg") no-repeat;*/
+	padding-top: 30px;
+	background-image: no-repeat 
+	display: block;
+
+}
+
+
+div#messageArea {
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	color: rgb(102, 124, 62);
+
+}
+
+
+form {
+	position: absolute;
+	bottom: 34px;
+	right: 20px;
+	background-color: rgb(108, 143, 49);
+	font-size: 8px;
+	padding: 7px;
+}
+
+
+form input {
+	background-color: rgb(169, 199, 112);
+	border-color: rgb(88, 105, 59);
+	font-size: 15px;
+}
+
+
+
+table#table {
+	color: red;
+	position: absolute;
+	left: 143px;
+	top: 110px;
+	border-color: red;
+}
+
+
+td{
+	height: 76px;
+	width: 78px;	
+}
+
+.hit {
+	background: url("../img/ship.png") no-repeat center center;
+}
+
+
+.miss {
+	background:url(../img/miss.png) no-repeat center center;
+}
